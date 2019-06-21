@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="jsp_lecture" path="/jsp_lecture" reloadable="true" source="org.eclipse.jst.jee.server:jsp_lecture"/><Context docBase="AdreesBook" path="/AdreesBook" reloadable="true" source="org.eclipse.jst.jee.server:AdreesBook"/><Context docBase="Reserch_P" path="/Reserch_P" reloadable="true" source="org.eclipse.jst.jee.server:Reserch_P"/></Host>
+      <Context docBase="jsp_lecture" path="/jsp_lecture" reloadable="true" source="org.eclipse.jst.jee.server:jsp_lecture"/><Context docBase="AdreesBook" path="/AdreesBook" reloadable="true" source="org.eclipse.jst.jee.server:AdreesBook"/><Context docBase="Reserch_P" path="/Reserch_P" reloadable="true" source="org.eclipse.jst.jee.server:Reserch_P"/><Context docBase="FileUploadEx" path="/FileUploadEx" reloadable="true" source="org.eclipse.jst.jee.server:FileUploadEx"/><Context docBase="ShoppingSite" path="/ShoppingSite" reloadable="true" source="org.eclipse.jst.jee.server:ShoppingSite"/><Context docBase="db_lecture" path="/db_lecture" reloadable="true" source="org.eclipse.jst.jee.server:db_lecture"/></Host>
     </Engine>
   </Service>
 </Server>
